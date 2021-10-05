@@ -7,3 +7,4 @@ Most Azure services (such as Azure Resource Manager providers and the classic de
 
 # Register the client application with Azure AD
 
+![](media/Image1.png)
