@@ -8,3 +8,22 @@ Most Azure services (such as Azure Resource Manager providers and the classic de
 # Register the client application with Azure AD
 
 ![](media/Image1.png)
+
+# Give access to client application over azure subscription
+
+# Fetch access token using postman
+
+```
+{
+    "token_type": "Bearer",
+    "expires_in": "3599",
+    "ext_expires_in": "3599",
+    "expires_on": "1633776251",
+    "not_before": "1633772351",
+    "resource": "https://management.core.windows.net/",
+    "access_token": "Token Here"
+}
+```
+
+# Call Azure REST API
+
