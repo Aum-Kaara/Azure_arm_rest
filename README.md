@@ -11,7 +11,13 @@ Most Azure services (such as Azure Resource Manager providers and the classic de
 
 # Give access to client application over azure subscription
 
+Give required access to call rest api 
+
+![](media/IAM.png)
+
 # Fetch access token using postman
+
+![](media/FetchToken.png)
 
 ```
 {
@@ -26,4 +32,8 @@ Most Azure services (such as Azure Resource Manager providers and the classic de
 ```
 
 # Call Azure REST API
+
+use token received from previous API call to fetch resource group details 
+
+![](media/API-Call.png)
 
